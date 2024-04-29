@@ -1,0 +1,81 @@
+{
+  "reservations": [
+    {
+      "id": 1,
+      "first_name": "John",
+      "last_name": "Doe",
+      "reserved_at": "2024-04-28T19:21:00Z",
+      "created_at": "2024-04-28T19:21:00Z",
+      "updated_at": "2024-04-28T19:21:00Z"
+    }
+  ],
+  "users": [
+    {
+      "id": 1,
+      "email": "raz@trezlabs.com",
+      "password": "hashedpassword123",
+      "role": "admin",
+      "created_at": "2024-04-28T19:21:00Z",
+      "updated_at": "2024-04-28T19:21:00Z"
+    }
+  ],
+  "exercises": [
+    {
+      "id": 1,
+      "name": "Push-up",
+      "video_url": "https://example.com/pushup.mp4",
+      "created_at": "2024-04-28T19:21:00Z",
+      "updated_at": "2024-04-28T19:21:00Z"
+    },
+    {
+      "id": 2,
+      "name": "Push-down",
+      "video_url": "https://example.com/pushdown.mp4",
+      "created_at": "2024-04-28T19:21:00Z",
+      "updated_at": "2024-04-28T19:21:00Z"
+    },
+    {
+      "id": 3,
+      "name": "Pull-ups",
+      "video_url": "https://example.com/pullups.mp4",
+      "created_at": "2024-04-28T19:21:00Z",
+      "updated_at": "2024-04-28T19:21:00Z"
+    }
+  ],
+  "stations": [
+    {
+      "id": 1,
+      "name": "Station 1",
+      "created_at": "2024-04-28T19:21:00Z",
+      "updated_at": "2024-04-28T19:21:00Z"
+    },
+    {
+      "id": 1,
+      "name": "Station 2",
+      "created_at": "2024-04-28T19:21:00Z",
+      "updated_at": "2024-04-28T19:21:00Z"
+    },
+    {
+      "id": 1,
+      "name": "Station 3",
+      "created_at": "2024-04-28T19:21:00Z",
+      "updated_at": "2024-04-28T19:21:00Z"
+    },
+    {
+      "id": 1,
+      "name": "Station 4",
+      "created_at": "2024-04-28T19:21:00Z",
+      "updated_at": "2024-04-28T19:21:00Z"
+    }
+  ],
+  "rotations": [
+    {
+      "id": 1,
+      "exercise_id": 1,
+      "reservation_id": 1,
+      "station_id": 1,
+      "created_at": "2024-04-28T19:21:00Z",
+      "updated_at": "2024-04-28T19:21:00Z"
+    }
+  ]
+}
